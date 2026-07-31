@@ -8,7 +8,7 @@ setup(
     py_modules=['zarinpal'],   
     package_dir={"": "src/zarinpal-py-sdk"},              
     install_requires=[
-        "pytest==8.3.4",
+        "pytest>=8.3.4",
         "Requests>=2.32.4",
         "requests_mock>=1.12.1",
         "setuptools>=75.8.0"
