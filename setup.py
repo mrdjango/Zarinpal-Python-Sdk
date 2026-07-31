@@ -18,7 +18,7 @@ setup(
     description='A Python SDK for Zarinpal Payment Gateway',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/mrdjango/Zarinpal-Python-Sdk/',  
+    url='https://github.com/mrdjango/Zarinpal-Python-Sdk',  
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
