@@ -2,16 +2,16 @@ from setuptools import setup, find_packages
 
 setup(
     name='zarinpal-py-sdk',               
-    version='0.1.4',                      
+    version='0.1.5',                      
     packages=find_packages(where="src/zarinpal-py-sdk"), 
     include_package_data=True,  
     py_modules=['zarinpal'],   
     package_dir={"": "src/zarinpal-py-sdk"},              
     install_requires=[
         "pytest==8.3.4",
-        "Requests==2.32.4",
-        "requests_mock==1.12.1",
-        "setuptools==75.8.0"
+        "Requests>=2.32.4",
+        "requests_mock>=1.12.1",
+        "setuptools>=75.8.0"
     ],
     author='Iman Attary',                   
     author_email='imanattary@gmail.com',
